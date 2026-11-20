@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/light_bg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_statistics"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/totalTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Appointments: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/maleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male Patients: 0"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/femaleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female Patients: 0"
+        android:textSize="18sp"
+        android:textColor="#E91E63"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/avgAgeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Age: 0"
+        android:textSize="18sp"
+        android:textColor="#4CAF50" />
+</LinearLayout>
